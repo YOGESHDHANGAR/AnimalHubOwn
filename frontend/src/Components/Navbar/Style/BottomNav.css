@@ -1,0 +1,30 @@
+.bottom_nav {
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  /* background-color: #808080; */
+  background-color: whitesmoke;
+  width: 100%;
+}
+.bottom_div_Links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_div_Links a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom_div_Links a:hover {
+  color: rgb(8, 63, 8);
+}
+.bottom_div_Links a:active {
+  color: rgb(8, 63, 8);
+}
+/* Model filter */
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

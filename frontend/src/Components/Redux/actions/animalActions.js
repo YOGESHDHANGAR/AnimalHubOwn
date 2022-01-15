@@ -27,7 +27,8 @@ export const getAnimals =
   (milk, category, radius, rate, breedArr) => async (dispatch) => {
     try {
       dispatch({ type: ALL_ANIMAL_REQUEST });
-      let link = `http://localhost:4000/api/v1/animals?`;
+      // let link = `http://localhost:4000/api/v1/animals?`;
+      let link = `/api/v1/animals?`;
 
       if (milk) {
         link = link + `milk=${milk}&`;
